@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-image: url(../images/angel-jimenez.jpg);
+  text-align: center;
+  padding: center;
+  padding: 20%;
+  background-size: cover;
+}
+main h1 {
+  padding-left: 96px;
+  color: white;
+  font-size: 199px;
+  font-family: "Open Sans", sans-serif;
+}
+.titulo1 {
+  background: linear-gradient(to top, rgb(250, 74, 84), rgb(218, 1, 112));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 96px;
+}
+
+.contenedor1 {
+  float: left;
+  margin: 14% 0 0 10%;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.titulo2 {
+  font-size: 96px;
+}
+.contenedor2 {
+  margin: 10% 11% 0 0;
+  float: right;
+}
+p {
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  border: 1px solid rgb(253, 76, 92);
+  background: none;
+  background: rgb(253, 76, 92);
+  padding: 2%;
+  border-radius: 70px;
+  padding: 17px 55px 17px 55px;
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
+.titulo3 {
+  background: linear-gradient(to top, rgb(250, 74, 84), rgb(218, 1, 112));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 85px;
+}
+.contenedor3 {
+  font-family: "Noto Sans JP", sans-serif;
+  float: right;
+  margin: 10% 12% 17% 0;
+}
+
+.contenedor4 {
+  margin: 100px 0 0 9%;
+}
+
+.clear2 {
+  clear: both;
+}
+.contenedor5 {
+  font-family: "Noto Sans JP", sans-serif;
+  background-image: url(../images/john-raptis.png);
+  background-size: cover;
+  padding: 20%;
+}
+
+.contenedor6 {
+  float: right;
+  font-size: 30px;
+  color: white;
+}
+
+.clear6 {
+  clear: both;
+}
+
+footer {
+  background-color: rgb(253, 46, 92);
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  height: 1000%;
+}
+
+.contenedor7 {
+  float: right;
+  width: 20%;
+  margin: 298px 0 223px 0px;
+}
+.contenedor8 {
+  float: right;
+  width: 20%;
+  margin: 298px 0 223px 0px;
+}
+.contenedor9 {
+  float: right;
+  width: 20%;
+  margin: 298px 0 223px 0px;
+}
+.contenedor10 {
+  float: right;
+  width: 20%;
+  margin: 298px 0 223px 0px;
+}
+.clear10 {
+  clear: both;
+  background-color: white;
+  height: 1px;
+}
+.ultimo {
+  float: left;
+  margin: 4px 54% 0px 10%;
+}
+
+@media (max-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  main h1 {
+    padding-left: 14px;
+    color: white;
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .titulo1 {
+    font-size: 11px;
+  }
+
+  .titulo2 {
+    font-size: 11px;
+  }
+
+  .contenedor1 {
+    float: left;
+    margin: 16% 0 0 7%;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 3px;
+  }
+  p {
+    font-size: 7px;
+  }
+  .contenedor2 img {
+    width: 44%;
+    margin: -199px 0 0 216px;
+  }
+  button {
+    border: none;
+    border: 1px solid rgb(253, 76, 92);
+    background: none;
+    background: rgb(253, 76, 92);
+    padding: -12%;
+    border-radius: 70px;
+    padding: 8px 11px 7px 14px;
+    color: white;
+    margin: 4px 0 0 -5px;
+    width: 39%;
+    font-size: 7px;
+  }
+
+  .titulo3 {
+    font-size: 11px;
+  }
+  .contenedor3 {
+    margin: 9% 1% 17% 0;
+  }
+  .contenedor4 img {
+    width: 135px;
+    margin: -75px 0 0 -14px;
+  }
+  .contenedor5 {
+    width: 216px;
+  }
+  .contenedor6 {
+    font-size: 5px;
+    margin: 0 0 0 0;
+  }
+  .contenedor7 {
+    margin: 48px 0 25px 0px;
+  }
+  .contenedor8 {
+    margin: 48px 0 25px 0px;
+  }
+  .contenedor8 {
+    margin: 48px 0 25px 0px;
+  }
+  .contenedor9 {
+    margin: 48px 0 25px 0px;
+  }
+  .contenedor10 {
+    margin: 48px 0 25px 0px;
+  }
+  footer {
+    height: 202px;
+  }
+
+  .ultimo {
+    margin: 4px 0 0 0;
+  }
+  .ultimo2 {
+    margin: 4px 0 0 279px;
+  }
+}
